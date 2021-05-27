@@ -21,24 +21,24 @@ public class MenuItem {
 
     //Setters below
 
-    public void setName(String name){
-        this.name = name;
+    public void setName(String aName){
+        this.name = aName;
     }
 
-    public void setPrice(double price){
-        this.price = price;
+    public void setPrice(double aPrice){
+        this.price = aPrice;
     }
 
-    public void setDescription(String description){
-        this.description = description;
+    public void setDescription(String aDescription){
+        this.description = aDescription;
     }
 
-    public void setCategory(String category){
-        this.category = category;
+    public void setCategory(String aCategory){
+        this.category = aCategory;
     }
 
-    public void setDateAdded(Date dateAdded){
-        this.dateAdded = dateAdded;
+    public void setDateAdded(Date aDateAdded){
+        this.dateAdded = aDateAdded;
     }
 
     //Getters below
@@ -65,7 +65,7 @@ public class MenuItem {
 
     //Method to concatenate text strings
 
-    public String concatenate(){
+    public String toString(){
         return name + "\n" + description + "\n" + price;
     }
 }
