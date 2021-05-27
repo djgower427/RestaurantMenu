@@ -13,7 +13,7 @@ public class Menu {
 
     private ArrayList<MenuItem> items;
 
-    private Menu(ArrayList<MenuItem> items){
+    public Menu(ArrayList<MenuItem> items){
         this.items = items;
         this.lastUpdate = new Date();
     }
@@ -51,11 +51,5 @@ public class Menu {
         for (MenuItem menuItem : items){
             System.out.println(menuItem.toString() + "\n");
         }
-    }
-
-    //Method to change updated date of menu
-
-    private Menu(ArrayList<MenuItem> items){
-        this.lastUpdate = new Date();
     }
 }
